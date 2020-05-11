@@ -1,0 +1,24 @@
+{
+  "name": "expressashish",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "cookie-session": "^1.4.0",
+    "ejs": "^3.0.2",
+    "express": "^4.17.1",
+    "express-validate": "0.0.8",
+    "express-validator": "^6.4.0",
+    "http-errors": "^1.7.3"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.3"
+  }
+}
